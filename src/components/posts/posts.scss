@@ -1,0 +1,37 @@
+.cmp-posts {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-flow: row wrap;
+
+    .cmp-post {
+
+        &:nth-child(even) {
+            background-color: #007EA7;
+        }
+        &:nth-child(odd) {
+            background-color: #80CED7;
+        }
+    
+        padding: 2em;
+        box-sizing: border-box;
+        color: #ffffff;
+        margin: .1em;
+        width: 33%;
+
+        @media screen and (max-width: 991px) {
+            width: 100%;
+        }
+
+        h2, span {
+            font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        h2{
+            text-transform: uppercase;
+            font-size: 30px;
+            // margin: 0;
+            opacity: 0.8;
+        }
+    }
+}

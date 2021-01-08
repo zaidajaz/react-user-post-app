@@ -1,0 +1,65 @@
+.cmp-user-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .cmp-user-card {
+        width: 100%;
+        min-height: 360px;
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        padding: 24px;
+        box-sizing: border-box;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #ffffff;
+        font-size: 1.5rem;
+
+        &:nth-child(even) {
+            background-color: #007EA7;
+        }
+        &:nth-child(odd) {
+            background-color: #80CED7;
+        }
+
+        .cmp-user-card__avatar {
+            border-radius: 50%;
+            background-color: pink;
+            width: 256px;
+            height: 256px;
+        }
+        .cmp-user-card__details {
+            width: 600px;
+        }
+
+        .cmp-user-card__heading{
+            margin-bottom: 0;
+        }
+        .cmp-user-card__sub-heading {
+            font-size: 1rem;
+            margin-bottom: 2em;
+        }
+        .cmp-user-card__action {
+            display: flex;
+            margin-top: 2em;
+            height: 3em;
+            width: 12em;
+            cursor: pointer;
+            background-color: #ffffff;
+            font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 0.9rem;
+            color: #007EA7;
+            border-radius: 3px;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+
+            &:hover {
+                background-color: #cbe9ec;
+                color: #000;
+            }
+        }
+    }
+}
