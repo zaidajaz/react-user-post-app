@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer>
             <span>&copy; 2021. All rights reserved.</span>
-            <span><i><a href="https://github.com/zaidajaz">Zaid A.</a></i></span>
+            <span><i><a target="_blank" href="https://github.com/zaidajaz">Zaid A.</a></i></span>
         </footer>
     );
 }

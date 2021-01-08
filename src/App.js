@@ -82,7 +82,4 @@ class App extends React.Component {
   }
 }
 
-
-// https://i.pravatar.cc/300?img=1
-
 export default App;
